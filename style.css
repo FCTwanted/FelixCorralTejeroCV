@@ -40,7 +40,7 @@ body {
 
 /* General container styles start */
 .container {
-    width: min(90%, 1440px);
+    width: min(95%, 1440px);
     margin: 0 auto;
     overflow: hidden;
 }
@@ -358,6 +358,7 @@ ul.nav__list {
 
 .about-img {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .about-img img {
@@ -437,7 +438,7 @@ ul.nav__list {
     width: 50%;
     min-height: 100px;
     margin-bottom: 20px;
-    padding: 20px 40px;
+    padding: 5px 10px;
     text-align: right;
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
     opacity: 0;
@@ -495,8 +496,8 @@ ul.nav__list {
 .services{
     background-color: var(--bg-color-black);
     color:var(--text-color-white);
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .services h2{
@@ -634,11 +635,11 @@ ul.nav__list {
     }
 
     .home-content h3 {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     .home-content p {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .home-img img {
@@ -720,6 +721,19 @@ ul.nav__list {
 
     .services-container{
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    }
+    
+    .timeline h3 {
+    font-size: 20px;
+    }
+
+    .timeline p {
+        font-size: 2rem;
+    }
+
+    #timeLine {
+        margin-right: 5px;
+        margin-left: 10px;
     }
 }
 
