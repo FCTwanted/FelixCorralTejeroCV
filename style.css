@@ -728,12 +728,24 @@ ul.nav__list {
     }
 
     .timeline p {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        line-height: 20px;
     }
 
     #timeLine {
         margin-right: 5px;
         margin-left: 10px;
+    }
+
+    .contact form{
+        display:block;
+        align-items: center;
+        justify-content: center;
+        gap:1.5rem;
+        margin:5rem 0;
+        margin-right: 25px;
+        margin-left: 25px;
+        text-align: center;
     }
 }
 
